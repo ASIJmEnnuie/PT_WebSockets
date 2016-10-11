@@ -6,7 +6,9 @@
       "organisateur": "un orga",
       "date": "11/10/2016",
       "heure": "13:59",
-      "nb_personnes": 1
+      "description": "une description",
+      "nb_inscriptions": 1,
+      "nb_places": 20
     },
     {
       "nom": "un autre nom",
@@ -14,7 +16,9 @@
       "organisateur": "un autre orga",
       "date": "11/10/2016",
       "heure": "14:00",
-      "nb_personnes": 3
+      "description": "une autre description",
+      "nb_inscriptions": 3,
+      "nb_places": 10
     },
   ]
 }

@@ -5,7 +5,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import {fade} from 'material-ui/utils/colorManipulator';
 import { amberA400, amberA700, pinkA200, grey100, grey300, grey400, grey500, white, darkBlack, fullBlack } from 'material-ui/styles/colors';
-import AppGlob from './AppGlob';
+import PT_Global from './PT_Global';
 
 const muiTheme = getMuiTheme({
   fontFamily: 'Roboto, sans-serif',
@@ -32,20 +32,4 @@ injectTapEventPlugin();
 
 var racine =  document.getElementById('app');
 
-ReactDOM.render(
-  <MuiThemeProvider muiTheme={muiTheme}>
-    <AppGlob/>
-  </MuiThemeProvider>,
-  racine);
-
-// setTimeout(function() {
-//   console.log("Unmount");
-//   ReactDOM.unmountComponentAtNode(racine);
-//   ReactDOM.render(
-//     <MuiThemeProvider muiTheme={muiTheme}>
-//       <div>
-//         <h1>Je suis le nouveau contenu</h1>
-//       </div>
-//     </MuiThemeProvider>,
-//     racine);
-// }, 2000);
+ReactDOM.render(<MuiThemeProvider muiTheme={muiTheme}><div> <PT_Global/> </div></MuiThemeProvider>, racine);
