@@ -16,7 +16,7 @@ const PT_ControlBar = React.createClass({
         <div className="content">
           <div className="searchSelector"><DatePicker hintText="Choisir une date" /></div>
           <div className="searchSelector"><TextField  hintText="Saisir un emplacement" /></div>
-          <div className="searchSelector"><RaisedButton label="Default" /></div>
+          <div className="searchSelector"><RaisedButton label="Afficher tous les évènements" /></div>
         </div>
       </section>
     );

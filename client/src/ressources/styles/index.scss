@@ -40,10 +40,12 @@ html {
 
           .searchSelector {
             display: inline-block;
+            width: 30%;
+            text-align: center;
           }
 
           .searchSelector+.searchSelector {
-            margin-left: $margin;
+            margin-left: 5%;
           }
         }
       }
