@@ -1,0 +1,20 @@
+{
+  "events": [
+    {
+      "nom": "un nom",
+      "lieu": "un lieu",
+      "organisateur": "un orga",
+      "date": "11/10/2016",
+      "heure": "13:59",
+      "nb_personnes": 1
+    },
+    {
+      "nom": "un autre nom",
+      "lieu": "un autre lieu",
+      "organisateur": "un autre orga",
+      "date": "11/10/2016",
+      "heure": "14:00",
+      "nb_personnes": 3
+    },
+  ]
+}
