@@ -4,14 +4,14 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import {fade} from 'material-ui/utils/colorManipulator';
-import { amberA400, amberA700, pinkA200, grey100, grey300, grey400, grey500, white, darkBlack, fullBlack } from 'material-ui/styles/colors';
+import { indigoA400, indigoA700, pinkA200, grey100, grey300, grey400, grey500, white, darkBlack, fullBlack } from 'material-ui/styles/colors';
 import PT_Global from './PT_Global';
 
 const muiTheme = getMuiTheme({
   fontFamily: 'Roboto, sans-serif',
   palette: {
-    primary1Color: amberA700,
-    primary2Color: amberA400,
+    primary1Color: indigoA700,
+    primary2Color: indigoA400,
     primary3Color: grey400,
     accent1Color: pinkA200,
     accent2Color: grey100,
@@ -22,7 +22,7 @@ const muiTheme = getMuiTheme({
     canvasColor: white,
     borderColor: grey300,
     disabledColor: fade(darkBlack, 0.3),
-    pickerHeaderColor: amberA400,
+    pickerHeaderColor: indigoA400,
     clockCircleColor: fade(darkBlack, 0.07),
     shadowColor: fullBlack,
   }
