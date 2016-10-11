@@ -9,7 +9,8 @@
       "heure": "13:59",
       "description": "une description",
       "nb_inscriptions": 1,
-      "nb_places": 20
+      "nb_places": 20,
+      "image": "ressources/images/profil.svg"
     },
     {
       "nom": "un autre nom",
@@ -19,7 +20,8 @@
       "heure": "14:00",
       "description": "une autre description",
       "nb_inscriptions": 3,
-      "nb_places": 10
+      "nb_places": 10,
+      "image": "ressources/images/profil.svg"
     },
     {
       "nom": "un nom",
@@ -29,7 +31,8 @@
       "heure": "13:59",
       "description": "une description",
       "nb_inscriptions": 1,
-      "nb_places": 20
+      "nb_places": 20,
+      "image": "ressources/images/profil.svg"
     },
     {
       "nom": "un autre nom",
@@ -39,7 +42,8 @@
       "heure": "14:00",
       "description": "une autre description",
       "nb_inscriptions": 3,
-      "nb_places": 10
+      "nb_places": 10,
+      "image": "ressources/images/profil.svg" 
     }
   ]
 }

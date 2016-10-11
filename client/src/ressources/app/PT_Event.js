@@ -12,7 +12,7 @@ const PT_Event = React.createClass({
       <section className={this.state.class}>
         <div className="content">
           <div className="colImage" >
-            <img src="ressources/images/profil.svg" alt="Une image de description"></img>
+            <img src={this.props.image} alt="Une image de description"></img>
           </div>
 
           <div className="colInfo">

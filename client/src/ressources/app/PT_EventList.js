@@ -30,6 +30,7 @@ const PT_EventList = React.createClass({
               description={event.description}
               nbInscriptions={event.nb_inscriptions}
               nbPlaces={event.nb_places}
+              image={event.image}
               />
             );
           })
