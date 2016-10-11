@@ -48,7 +48,6 @@ gulp.task('copyHTML', function() {
 });
 
 
-
 gulp.task('copyImg', function() {
   return gulp.src(source + '/ressources/images/*.svg')
   .pipe(gulp.dest(destination + '/ressources/images/'));

@@ -38,6 +38,7 @@ html {
           }
 
           .colInfo {
+
             height: $imgHeigth;
             width: 80%;
             display: inline-block;
@@ -48,10 +49,21 @@ html {
 
               span {
                 margin: $margin;
+
+                .digit {
+                  margin: 0px;
+                  font-weight: bold;
+                }
+              }
+
+              span.title {
+                font-weight: bold;
+                text-transform: uppercase;
               }
             }
 
             .col {
+              vertical-align: top;
               height: 50%;
               width: 50%;
               display: inline-block;
