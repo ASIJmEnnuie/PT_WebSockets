@@ -15,7 +15,7 @@
 $imgHeigth: 200px;
 $margin: 20px;
 $eventBackgroundColor: white;
-$pageBackgroundColor: #3F51B5;
+$pageBackgroundColor: #5C6BC0;
 
 html {
   @include default();
@@ -63,6 +63,7 @@ html {
 
           .content {
             padding-top: $margin;
+            padding-bottom: $margin;
             padding-left: 5%;
             padding-right: 5%;
 
