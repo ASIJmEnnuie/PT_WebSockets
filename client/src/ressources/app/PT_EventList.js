@@ -8,9 +8,15 @@ const PT_EventList = React.createClass({
     }
   },
 
+  getInitialState: function() {
+    return  {
+      class: "eventList"
+    }
+  },
+
   render: function() {
     return (
-      <div className="eventList">
+      <div className={this.state.class}>
         {
           this.props.events.map(function(event, i){
             return(

@@ -1,9 +1,15 @@
 import React from 'react';
 
 const PT_Event = React.createClass({
+  getInitialState: function() {
+    return  {
+      class: "event"
+    }
+  },
+
   render: function() {
     return (
-      <section className="event">
+      <section className={this.state.class}>
         <div className="content">
           <div className="colImage" >
             <img src="ressources/images/profil.svg" alt="Une image de description"></img>

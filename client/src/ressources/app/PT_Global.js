@@ -1,14 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-
 import PT_EventList from './PT_EventList';
+import PT_ControlBar from './PT_ControlBar';
+
 var donnees = require("../datas/events.json").events;
 
 const PT_Global = React.createClass({
 
   render: function() {
     return (
-      <PT_EventList events={donnees} />
+      <div>
+        <PT_ControlBar />
+        <PT_EventList events={donnees} />
+      </div>
     );
   }
 });

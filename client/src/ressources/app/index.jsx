@@ -32,4 +32,4 @@ injectTapEventPlugin();
 
 var racine =  document.getElementById('app');
 
-ReactDOM.render(<MuiThemeProvider muiTheme={muiTheme}><div> <PT_Global/> </div></MuiThemeProvider>, racine);
+ReactDOM.render(<MuiThemeProvider muiTheme={muiTheme}><PT_Global/></MuiThemeProvider>, racine);
