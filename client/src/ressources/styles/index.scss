@@ -26,26 +26,46 @@ html {
           padding-left: 5%;
           padding-right: 5%;
 
-          .col {
-            width: 30%;
-            float: left;
+          .colImage {
+            vertical-align: top;
+            height: $imgHeigth;
+            display: inline-block;
+            width: 20%;
 
             img {
               height: $imgHeigth;
             }
+          }
+
+          .colInfo {
+            height: $imgHeigth;
+            width: 80%;
+            display: inline-block;
 
             .row {
               width: 100%;
-              margin-bottom: 5px;
-              padding-bottom: 2px;
-              border-bottom-style: solid;
-              border-bottom-width: 1px;
-            }
-          }
+              height: 50%;
 
-          .col[data-num="2"] {
-            margin-left: 5%;
-            margin-right: 5%;
+              span {
+                margin: $margin;
+              }
+            }
+
+            .col {
+              height: 50%;
+              width: 50%;
+              display: inline-block;
+
+              .row {
+                height: auto;
+              }
+            }
+
+            .col+.col {
+              margin-left: -1px;
+              border-left-style: solid;
+              border-left-width: 1px;
+            }
           }
         }
       }

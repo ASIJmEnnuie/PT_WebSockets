@@ -12,19 +12,25 @@ const PT_Event = React.createClass({
     return (
       <Paper zDepth={this.state.zDepth} className="event">
         <div className="content">
-          <div className="col" >
+          <div className="colImage" >
             <img src="ressources/images/profil.svg"></img>
           </div>
-          <div className="col" data-num={2}>
-            <div className="row">Nom evenement</div>
-            <div className="row">Date - Heure - Lieu</div>
-          </div>
-          <div className="col">
-            <div className="row">Nb participants</div>
-            <div className="row">Nb places restantes</div>
-          </div>
-          <div className="description">
-            Je suis une putain de description !
+
+          <div className="colInfo">
+
+            <div className="col">
+              <div className="row"><span>Nom evenement</span></div>
+              <div className="row"><span>Date - Heure - Lieu</span></div>
+            </div>
+
+            <div className="col">
+              <div className="row"><span>Nb participants</span></div>
+              <div className="row"><span>Nb places restantes</span></div>
+            </div>
+
+            <div className="row">
+              <span>Je suis une putain de description !</span>
+            </div>
           </div>
         </div>
       </Paper>
