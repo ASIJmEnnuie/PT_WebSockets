@@ -14,9 +14,15 @@ const PT_ControlBar = React.createClass({
     return (
       <section className={this.state.class}>
         <div className="content">
-          <div className="searchSelector"><DatePicker hintText="Choisir une date" /></div>
-          <div className="searchSelector"><TextField  hintText="Saisir un emplacement" /></div>
-          <div className="searchSelector"><RaisedButton label="Afficher tous les évènements" /></div>
+          <div className="searchSelector">
+            <DatePicker hintText="Choisir une date" onChange={this.props.dateController}/>
+          </div>
+          <div className="searchSelector" onChange={this.props.placeController}>
+            <TextField  hintText="Saisir un emplacement" />
+          </div>
+          <div className="searchSelector" onTouchTap={this.props.razController}>
+            <RaisedButton label="Afficher tous les évènements" />
+          </div>
         </div>
       </section>
     );
