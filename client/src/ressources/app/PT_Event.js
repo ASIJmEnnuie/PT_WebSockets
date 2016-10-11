@@ -1,16 +1,9 @@
 import React from 'react';
-import Paper from 'material-ui/Paper';
 
 const PT_Event = React.createClass({
-  getInitialState: function() {
-    return {
-      zDepth: 2
-    }
-  },
-
   render: function() {
     return (
-      <Paper zDepth={this.state.zDepth} className="event">
+      <section className="event">
         <div className="content">
           <div className="colImage" >
             <img src="ressources/images/profil.svg" alt="Une image de description"></img>
@@ -34,7 +27,7 @@ const PT_Event = React.createClass({
             </div>
           </div>
         </div>
-      </Paper>
+      </section>
     );
   }
 });
