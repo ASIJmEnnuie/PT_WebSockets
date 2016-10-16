@@ -32,9 +32,12 @@
     "gulp-webpack": "^1.5.0",
     "json-loader": "^0.5.4",
     "material-ui": "~0.15.4",
+    "net": "^1.0.2",
     "react": "~15.3.1",
     "react-dom": "~15.3.1",
     "react-tap-event-plugin": "~1.0.0",
+    "sockjs-client": "^1.1.1",
+    "stompjs": "^2.3.3",
     "webpack": "~1.13.2"
   },
   "bugs": {
